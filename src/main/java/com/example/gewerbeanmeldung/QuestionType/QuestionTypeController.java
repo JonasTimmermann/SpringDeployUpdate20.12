@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.gewerbeanmeldung.Choices.Choices;
 
 @RestController
+@CrossOrigin
 @RequestMapping(path = "/frage")
 public class QuestionTypeController {
 
