@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @CrossOrigin
+@RestController
 @RequestMapping(path = "")
 public class FormController {
 	
